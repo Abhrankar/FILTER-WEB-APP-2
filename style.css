@@ -1,0 +1,23 @@
+body{
+    background-image: url("mustache.png");
+    color: white;
+    background-size:cover;
+}
+#app_name{
+    background-color: black;
+}
+#snapshot{
+    background-color: black;
+    color: white;
+}
+canvas{
+    animation-name: design;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes design{
+    from {box-shadow: 3px 3px 40px blue;}
+    to {box-shadow: 3px 3px 40px turquoise;}
+}
